@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *caixa;
+@property (weak, nonatomic) IBOutlet UILabel *texto;
+
+- (IBAction)alterar:(id)sender;
+
+-(IBAction)mudarFonte:(id)sender;
 
 @end
-
